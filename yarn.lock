@@ -158,6 +158,8 @@ __metadata:
     "@radix-ui/react-dialog": "npm:^1.0.4"
     "@tensorflow-models/coco-ssd": "npm:^2.2.2"
     "@tensorflow/tfjs": "npm:^4.8.0"
+    "@tensorflow/tfjs-backend-cpu": "npm:^4.8.0"
+    "@tensorflow/tfjs-backend-webgl": "npm:^4.8.0"
     "@types/node": "npm:20.4.1"
     "@types/react": "npm:18.2.14"
     "@types/react-dom": "npm:18.2.6"
@@ -614,7 +616,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tensorflow/tfjs-backend-cpu@npm:4.10.0":
+"@tensorflow/tfjs-backend-cpu@npm:4.10.0, @tensorflow/tfjs-backend-cpu@npm:^4.8.0":
   version: 4.10.0
   resolution: "@tensorflow/tfjs-backend-cpu@npm:4.10.0"
   dependencies:
@@ -626,7 +628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tensorflow/tfjs-backend-webgl@npm:4.10.0":
+"@tensorflow/tfjs-backend-webgl@npm:4.10.0, @tensorflow/tfjs-backend-webgl@npm:^4.8.0":
   version: 4.10.0
   resolution: "@tensorflow/tfjs-backend-webgl@npm:4.10.0"
   dependencies:

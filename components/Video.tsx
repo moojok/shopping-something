@@ -11,10 +11,8 @@ import { PRICE } from "@/data/class";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 
 export default function Video() {
@@ -196,7 +194,7 @@ export default function Video() {
                 >
                   <h3>{String(k).toUpperCase()}</h3>
                   <h3>
-                    {v} x RM {String(PRICE?.[k])}
+                    {v} x Rp {String(PRICE?.[k])}
                   </h3>
                 </div>
               ))}
@@ -206,7 +204,7 @@ export default function Video() {
             <div className="flex items-center justify-between w-full gap-2">
               <h3>Total: </h3>
               <h3>
-                RM{" "}
+                Rp{" "}
                 {[
                   ...results
                     // ?.filter((res) => !NOT_SHOWN_CLASSES?.includes(res?.[5]))
@@ -239,7 +237,7 @@ export default function Video() {
                       >
                         <h3>{String(k).toUpperCase()}</h3>
                         <h3>
-                          {v} x RM {String(PRICE?.[k])}
+                          {v} x Rp {String(PRICE?.[k])}
                         </h3>
                       </div>
                     ))}
@@ -247,7 +245,7 @@ export default function Video() {
                   <div className="flex items-center justify-between w-full gap-2">
                     <h3>Total: </h3>
                     <h3>
-                      RM{" "}
+                      Rp{" "}
                       {checkoutItems?.reduce(
                         (p, [k, v]) => p + PRICE[k] * v,
                         0,
