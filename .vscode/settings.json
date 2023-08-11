@@ -1,0 +1,23 @@
+{
+  "search.exclude": {
+    "**/*.lock": true,
+    "**/.yarn/": true,
+    "**/.vercel/": true,
+    "**/.next/": true
+  },
+  "search.useIgnoreFiles": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.ignoreLimitWarning": true,
+  "terminal.integrated.scrollback": 100000,
+  "workbench.list.horizontalScrolling": true,
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "Bearded Theme feat. Will",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on"
+}
