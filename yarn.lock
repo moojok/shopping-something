@@ -166,6 +166,7 @@ __metadata:
     autoprefixer: "npm:10.4.14"
     class-variance-authority: "npm:^0.6.1"
     clsx: "npm:^1.2.1"
+    encoding: "npm:^0.1.13"
     eslint: "npm:8.44.0"
     eslint-config-next: "npm:13.4.9"
     lucide-react: "npm:^0.259.0"
