@@ -1,0 +1,20 @@
+**/node_modules
+**/.DS_Store
+**/.env*.local
+**/.env
+**/.next
+**/out
+**/.netlify
+**/.vercel
+**/*.log
+**/.*-error.log
+**/*.tsbuildinfo
+
+# Dependencies
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
